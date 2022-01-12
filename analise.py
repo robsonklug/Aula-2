@@ -27,7 +27,7 @@ print(tabela.info())
 print(tabela["Churn"].value_counts())
 print(tabela["Churn"].value_counts(normalize=True).map("{:.1%}".format))
 
-
+print("fui")
 # Passo 5: Análise Mais completa
 # comparar cada coluna da minha tabela com a coluna de cancelamento
 import plotly.express as px
